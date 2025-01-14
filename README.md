@@ -1,7 +1,14 @@
 # Easy-Recommendation-System
-This is a simple example of recommendation system building with Transformer model, clustering, and network analysis.
+This is a simple example of recommendation system building with Transformer model and dataset from kaggle.
 
 #### The codes of this repo was tested under the following environment: <h4>
-* Windows 10 with Intel(R) i7-6700 CPU @ 3.40GHz, RAM 16G;
-* Python 3.12.3 on Spyder IDE 6.0.3 (Anaconda3)
+* Python 3.12.3 on Windows 10 with Intel(R) i7-6700 CPU @ 3.40GHz, RAM 16G
 
+#### Packages used: <h4>
+* numpy 1.26.4
+* pandas 2.2.3
+* scikit-learn 1.6.1
+* sentence_transformers 3.3.1
+
+#### Packages used: <h4>
+[Anime Recommendations Database]([http://ibmdecisionoptimization.github.io/docplex-doc/](https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database)), retrieval date: 2025-01-14
