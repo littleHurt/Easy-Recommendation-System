@@ -11,4 +11,5 @@ This is a simple example of recommendation system building with Transformer mode
 * sentence_transformers 3.3.1
 
 #### Packages used: <h4>
-[Anime Recommendations Database]([https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database](https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database)](https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database)), retrieval date: 2025-01-14
+[Anime Recommendations Database], retrieval date: 2025-01-14
+https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database
