@@ -28,8 +28,13 @@ CREATE (a:Anime {
     rating: toFloat(row.rating),
     members: toInteger(row.members)
 })
+// ----------------------------------------------------------------
+
+
 
 // Import 'rating.csv' and create relationships
+// ----------------------------------------------------------------
+// cypher 
 LOAD CSV WITH HEADERS FROM 'file:///C:/Users/123/recommender/rating.csv' AS row
 MATCH (u:User {user_id: toInteger(row.user_id)}), (a:Anime {anime_id: toInteger(row.anime_id)})
 CREATE (u)-[r:RATED {rating: toInteger(row.rating)}]->(a)
